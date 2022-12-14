@@ -1,0 +1,201 @@
+@media(min-width: 201px) and (max-width: 500px)
+{   
+    header{
+        height: 82vh;
+        display:flex ;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 100%;
+
+        
+    }
+    h6{
+        font-size: 1.5rem;
+        display: initial;
+        border: solid black;
+        color: white;
+        background-color: black;
+        text-align: center;
+        width: 40vw;
+        margin-right: 1rem;
+    }
+    .menu{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 1rem;
+        display: flex;
+        justify-content:space-between;
+        align-items: center;
+    
+        width: 100%;
+        height: 7vh;
+        border: solid black;
+        background-color: white;
+        position: static;
+        top: 0;
+    
+    }
+    
+    
+    .navHeader{
+        width: 100%;
+        display: flex;
+        justify-content: end;
+        display: none;  
+    }
+    
+    .listHeader{
+    
+        width: 44%;
+        display: flex;
+        justify-content: space-evenly;
+        list-style: none;
+    
+    }
+    .listItem{
+        font-size: 2rem;
+        text-transform: capitalize;
+    }
+    .listItem:hover{
+        font-size: 110%;
+        font-weight: bold;
+        display: none;
+    }
+    #listItemBold{
+        font-weight: bold;
+        text-transform: capitalize;
+    }
+    #listItemBold:hover{
+        font-size: 110%;
+        display: none;
+    }
+
+    .portflowImg{
+        font-family: 'Montserrat', sans-serif;
+        background-image: url(flowimg.png);
+        background-repeat: no-repeat;
+        height: 100vh;
+        width: 100%;
+        border: solid blue;
+        background-position:80%;
+        background-size:cover;
+    }  
+    
+    .textFlow{
+        height: 65vh;
+        border: solid red;
+        display: flex;
+        flex-direction: column;
+        justify-content:end;
+        color: white;
+    
+        padding-left: 2rem;
+        font-size: 2rem;
+    }
+    .principalText{
+        padding-left: 2rem;
+        text-transform: capitalize;
+    }
+    #subText{
+        font-size: 2.5rem;
+        padding-top: 2rem;
+        padding-left: 2rem;
+        font-weight: lighter;
+        text-transform:uppercase;
+    
+    }
+    #subText:hover
+    {
+
+        display: none;
+        font-size: 55%;
+        text-decoration: underline;
+    }   
+     main{
+        height: 300vh;
+        width: 100%;
+        border: solid red;
+    }
+    
+    .gallery{
+        display: flex;
+        justify-content:space-evenly;
+        align-items: center;
+
+        flex-wrap: wrap;;
+        height: 140vh;
+
+    
+    }
+    .galleryImgs{
+
+        width: 80%;
+        margin-top: 1rem;
+    }
+    .galleryImgs:hover{
+        display: none;
+        transform: scale(1.1); 
+    }
+    footer{
+        position: static;
+        bottom: 0px;
+        left: 0px;
+        right: 0px;
+        margin-bottom: 0px;
+        height: 10vh;
+        background-color: #f6f6f6;
+        font-family: 'Montserrat', sans-serif;
+    
+    
+    }
+    
+    .containerFooter{
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        align-items:center;
+        border: solid black;
+        height: 10vh;
+    
+    
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        padding-left: 0rem;
+    }
+    .footerImgs{
+    
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+        background-color: #7fdbd4;
+        border: solid red;
+        padding-right: 0rem;
+    
+    }
+    .footerText{
+    display: flex;
+    justify-content: space-around;
+
+    width: 40vw;
+    padding-top: 2rem;
+    border: solid purple;
+       
+    }
+    .copyright{
+        text-transform: capitalize;
+        font-weight: bold;
+        width: 20vw;
+        align-items: center;
+    }
+    .textVnw{
+        text-transform: capitalize;
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        padding-left: 1rem;
+        border: solid black;
+    
+    
+    }
+}
