@@ -18,18 +18,16 @@ h6{
 }
 .menu{
     font-family: 'Montserrat', sans-serif;
-    font-size: 2rem;
+    font-size: 1.5rem;
+    padding-left: 1rem;
     display: flex;
     justify-content:space-between;
     align-items: center;
-
     width: 100%;
     height: 18vh;
     background-color: white;
-    padding-left: 3rem;
-    position: sticky;
+    position: fixed;
     top: 0;
-
 }
 
 
@@ -48,7 +46,7 @@ h6{
 
 }
 .listItem{
-    font-size: 2rem;
+    font-size: 1.2rem;
     text-transform: capitalize;
 }
 .listItem:hover{
@@ -63,19 +61,19 @@ h6{
     font-size: 110%;
 }
 main{
-    height: 155vh;
     padding-top: 2rem;
 }
 .portflowImg{
     font-family: 'Montserrat', sans-serif;
     background-image: url(flowimg2.png);
     background-repeat: no-repeat;
-    height: 75vh;
     background-position: center;
+    height: 100vh;
+    background-size: cover;
 }  
 
 .textFlow{
-    height: 71vh;
+    height: 90vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -93,40 +91,34 @@ main{
     padding-top: 2rem;
     padding-left: 2rem;
     font-weight: lighter;
-    text-transform:uppercase;
-
+    text-transform:uppercase
 }
 #subText:hover
 {
     font-size: 55%;
     text-decoration: underline;
 }
+a{
+    color: white;
+    text-decoration: none;
+}
 
 .gallery{
     display: flex;
     justify-content:space-evenly;
     align-items: center;
-    flex-wrap: wrap;;
-    height: 140vh;
-
+    flex-wrap: wrap;
 }
 .galleryImgs{
     width: 24%;
     margin-top: 1rem;
-    padding-left: 2rem;
 }
 .galleryImgs:hover{
-    transform: scale(1.1); 
-}
-footer{
-    height: 10vh;
-    background-color: #f6f6f6;
-    font-family: 'Montserrat', sans-serif;
-
-
+    width: 25%;
 }
 
 .containerFooter{
+
     display: flex;
     justify-content: space-around;
     align-items:center;
@@ -134,36 +126,38 @@ footer{
     width: 180vh;
     display: flex;
     justify-content: space-between;
-    padding-left: 2rem;
+    padding-left: 2rem; 
+    height: 10vh;
+    background-color: #f6f6f6;
+    font-family: 'Montserrat', sans-serif;
 }
 .footerImgs{
-
     display: flex;
     justify-content: space-evenly;
-    width: 40vw;
-
-    padding-right: 1rem;
-
+    width: 30vw;
 }
 .footerText{
 display: flex;
 justify-content: space-around;
 text-align: center;
-width: 40vw;
-   
+width: 55vw;
 }
 .copyright{
     text-transform: capitalize;
     font-weight: bold;
-    width: 20vw;
+    width: 10vw;
     align-items: center;
 }
 .textVnw{
     text-transform: capitalize;
     display: flex;
-    width: 80vw;
-    flex-direction: column;
+    align-items: center;
+    width: 100%;
     padding-left: 1rem;
-
-
+}
+.topoButton{
+    display: none;
+}
+.desktopFooter{
+    width: 90%;
 }
